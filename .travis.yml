@@ -2,8 +2,8 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key: c1991ba3-d64c-465d-be5a-7cf1b61ac094
-
+  api_key:
+    secure: nb8r4MbrAFallLzatoFduyUrCHMPXxwh23qKpGbJNs8fpvCH9YNz1CkGaQnOeFMb29p6G+H7xgzedxLoB1vB3qhGcn7d5L8gbMoYv0vTCy4fW/yX5dTq/nNwOWc3vxng2a2eJegv6khtw6EEeTJprGXyqpUqhJ8urydycOowdFqZ/gS1X4sAD7hliUB7zY17rOHUlBA9oofpWoehVoVNtvdee1Y4+KjN+x9ETlZjs6eAjVZkGFqJl9+Oum3wLrPuzXDfR1wuUq66J8eMJstyUlTrqQsMXV4wJ6UttS8SEXhZBrTvTmmc46FNGpN86rwDCtiBIjgqklMfLuSdEN3bhbHibMSC2F1a3Jic7jBCqng+2dmmC06dAS1VyPGrfj7BPevvaHS8TCpOKEvi5fsDXqLbeV3H51K/ueTJmaQxEI72LhvMuOWBi5C5cAu1AHco9Qf/6NoSGMENCI6g6Ej2dG0Mj1VyIiJCBD0eKiLYqxWSzKeEks2ncUkL+yDgtufOhvyKWImeOb/JYxb3lI+t0WV9hhfij3j/76GcApKcknfXyqK73wvNFnnDCORFXA1lKM65IaIHI3AXMp8d2ecS2duhF+zVCmrQmMyY7vpbCtAVk6X8xvUFLtK8SZInv0pEdZrHw7DJkzTOzFVGt54XcCHKu16bAusyHgmXpwKSlvo=
   app: agile-headland-68712
   on:
     repo: Mrjustinfry/node-shopping-list-integration-tests
